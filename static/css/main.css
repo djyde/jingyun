@@ -1,0 +1,45 @@
+.section{
+	text-align: center;
+	font-size: 36px;
+}
+
+.intro img{
+	width: 256px;
+}
+
+.twitter{
+	color: rgb(74,194,245);
+}
+
+.youtube{
+	color: rgb(229,45,39);
+}
+
+.facebook{
+	color: rgb(59, 89, 152);
+}
+
+.green{
+	color: green;
+}
+
+.table{
+	border-radius: 8px;
+	border: 1px solid gray;
+}
+
+.table thead th{
+	padding: 20px;
+}
+
+.table tbody td{
+	padding: 20px;
+}
+
+.server table{
+	font-size: 24px;
+}
+
+.server table td{
+	padding: 10px;
+}
