@@ -13,14 +13,24 @@
         $('#fullpage').fullpage({
           navigation: true,
           navigationPostion: 'right',
-          sectionsColor: ['#9FE0F6','#FFF','#FFF','#FFF','#FFF']
+          sectionsColor: ['#9FE0F6','#FFF','#FFF','#FFF','#FFF'],
+          menu: '#menu',
+          anchors: ['homepage','2','3','4','price','server','pay','pay2','serve']
         });
       })
     </script>
   </head>
 
   <body>
+      <ul id="menu">
+        <li data-menuanchor="homepage"><a href="#homepage">首页</a></li>
+        <li data-menuanchor="price"><a href="#price">价格套餐</a></li>
+        <li data-menuanchor="server"><a href="#server">服务器状态</a></li>
+        <li data-menuanchor="pay"><a href="#pay">支付</a></li>
+        <li data-menuanchor="serve"><a href="#serve">售前售后</a></li>
+      </ul>
     <div id="fullpage">
+
       <div class="section" style="color: #0092C7">
         <img src="static/images/cloud.png">
         <p>使用<span style="font-size: 42px; color: #FFF;">静云</span>，即可在中国的各个角落，尽情享受自由的网络世界 </p>
